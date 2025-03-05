@@ -1,0 +1,3 @@
+1. 50 states names and its locations
+2. Informations about wach states's popular colleges & rates regarding their each majors
+3. State Government

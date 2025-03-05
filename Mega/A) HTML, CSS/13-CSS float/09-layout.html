@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minumum-scale=1.0,maximum-scale=1.0user-scalable=no"/>
+        <title> CSS Examples </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html,
+            body {
+                height: 100%;
+            }
+
+            #container {
+                width: 800px;
+                margin: auto;
+            }
+
+            #header {
+                background-color: darkcyan;
+                width: auto;
+                height: 100px;
+            }
+
+            #content {
+                background-color: lightcyan;
+                width: auto;
+                min-height: 300px;
+            }
+
+            #footer {
+                background-color: lightblue;
+                width: auto;
+                height: 80px;
+            }
+            
+            #sidebar1 {
+                width: 160px;
+                background-color: lightcoral;
+                float: left;
+                min-height: 300px;
+            }
+
+            #body {
+                width: 480px;
+                background-color: lightskyblue;
+                float: left;
+                min-height: 300px;
+            }
+
+            #sidebar2 {
+                width: 160px;
+                background-color: lightgoldenrodyellow;
+                float: left;
+                min-height: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header"> 상단영역 </div>
+            <div id="content" class="clear">
+                <div id="sidebar1"> 사이드 바 </div>
+                <div id="body"> 본문영역 </div>
+                <div id="sidebar2"> 사이드 바 </div>
+            </div>
+            <div id="footer"> 하단영역 </div>
+        </div>
+    </body>
+</html>

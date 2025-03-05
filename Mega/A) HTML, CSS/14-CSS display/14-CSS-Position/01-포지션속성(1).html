@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport"content="width=device-qidth,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+        <title>CSS Example</title>
+
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            div {
+                width: 100px;
+                height: 100px;
+            }
+
+            #box1 {
+                background-color: violet;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                z-index: 1;
+            }
+
+            #box2 {
+                background-color: lightseagreen;
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+
+            #box3 {
+                background-color: darkgray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="box1"> BOX 1 </div>
+        <div id="box2"> BOX 2 </div>
+        <div id="box3"> BOX 3 </div>
+    </body>
+
+</html>

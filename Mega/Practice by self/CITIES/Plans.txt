@@ -1,0 +1,26 @@
+4 : Getting to know each other, talk about what they know about Computer Science, and tell them what we are going to accomplish this year ( If there is some member that wants to do competition or something else, this won't go the same )
+11 : Start with downloading an app, introduce github.com, and divide into separate groups ( based on what they want to do with a website )
+18 : Learn about HTML ( Basics like how it works and what it needs to be worked & solve some questions if have time )
+25 : Learn about HTML ( How to change fonts and color the letter & solve some questions )
+2 : Learn about HTML ( How to make a line and make an order ( + Putting link in the website & Mailing )& solve some questions <- includes the one that we did last week too )
+9 : Learn about HTML ( How to put images, videos, and recordings in the website & solve some questions )
+16 : Since it's a week before the mid-term, we will analyze what we have learned by giving them organized papers, solve some question
+30 : Make them to solve a question that covers everything that we've learned and will use to make a website 
+6 : Learn about HTML ( Learn about how to make a log in page and putting in some informations to it & solve some questions )
+20 : Learn about CSS
+27 : Learn about CSS
+4 : Learn about CSS
+11 : Learn about CSS
+18 : Since it's a week before the break, we will give them organized papers and begin the website
+8 : Decide the group again, to find out whether there is someone who wants to change to other group, and make them to start brainstorming
+15 : Since it's the last day before the break, we will start a little and for 30 minutes we will solve some questions and start making a website after the break
+
+For our club's goal is to make at least two websites that helps others including school and out of school.
+I'm thinking to make a website about Spanish and a website that summarizes US History clearly and easy to understand
+Or...
+- Chinese
+- 50 states and its informations about colleges
+- School grading website ( That calculates GPAs & ap grades )
+- 
+
+

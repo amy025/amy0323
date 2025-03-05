@@ -1,0 +1,20 @@
+<div class="container">
+            <div class="item">
+                <img src="img/wed1.jpg" />
+                <h3>내 남편과 결혼해줘</h3>
+                <p>LICO / 성소작</p>
+                <p>9.95</p>
+            </div>
+            <div class="item">
+                <img src="img/wed2.jpg" />
+                <h3>전지적 독자 시점</h3>
+                <p>UMI / 슬리피-C</p>
+                <p>9.95</p>
+            </div>
+            <div class="item">
+                <img src="img/wed3.jpg" />
+                <h3>조조코믹스</h3>
+                <p>이동건</p>
+                <p>9.97</p>
+            </div>
+        </div>

@@ -1,0 +1,58 @@
+* {
+    font-family: "Dancing Script";
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #f062;
+    box-shadow: 0 1px 3px #0002;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+}
+
+.header .content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .icon-button {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 16px;
+}
+
+.header .icon-button:hover {
+    background-color: #dddddd;
+    color: #ffffff;
+}
+
+.header .logo {
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.main {
+    background-color: #0001;
+
+    padding-top: 57px;
+}
+
+.footer {
+    background-color: #06f3;
+    border-top: 1px solid #dddddd;
+}

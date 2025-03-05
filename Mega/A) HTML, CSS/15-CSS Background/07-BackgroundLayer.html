@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <title> CSS Example </title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #navi {
+            background: url(Sources/list_right.png) repeat-y right top,
+                        url(Sources/menu.png) no-repeat left top,
+                        url(Sources/list_bg.png) repeat;
+        }
+
+        #navi a {
+            display: block;
+            width:auto;
+            height: 45px;
+            text-indent: -10000px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navi">
+        <a href="#"> 웹표준/웹디자인</a>
+        <a href="#"> 소셜미디어마케팅</a>
+        <a href="#"> IT/Mobile</a>
+        <a href="#"> QA</a>
+    </nav>
+  </body>
+</html>

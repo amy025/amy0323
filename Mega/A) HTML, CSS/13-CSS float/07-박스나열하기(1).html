@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minumum-scale=1.0,maximum-scale=1.0user-scalable=no"/>
+        <title> CSS Examples </title>
+        <style type="text/css">
+            div#box1 {
+                background-color: lightblue;
+                width: 200px;
+                height: 100px;
+                float: center;
+            }
+            div#box2 {
+                background-color: lightcoral;
+                width: 200px;
+                height: 100px;
+                float: center;
+            }
+            div#box3 {
+                background-color: lightcyan;
+                width: 200px;
+                height: 100px;
+                float: center;
+            }
+            div#box4 {
+                background-color: lightgoldenrodyellow;
+                width: 200px;
+                height: 100px;
+                float: center;
+            }
+            div#box5 {
+                background-color: lightgreen;
+                width: 200px;
+                height: 100px;
+                float: center;
+            }
+            .clear:after {
+                content: '';
+                display: block;
+                clear: both;
+                float: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container" class="clear">
+            <div id="box1"> BOX 1 </div>
+            <div id="box2"> BOX 2 </div>
+            <div id="box3"> BOX 3 </div>
+            <div id="box4"> BOX 4 </div>
+            <div id="box5"> BOX 5 </div>
+        </div>
+    </body>
+</html>
