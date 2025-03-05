@@ -1,0 +1,50 @@
+이광호 선생님
+
+Frontend
+HTML CSS2 JS(JQUERY)
+HTML5 CSS3 = 반응형웹 ES6
+
+Backend
+ASP PHP JSP
+
+[ 23-08-21 ]
+Visual studio code
+
+< HTML >
+Extension -> Auto Close Tag & Auto Rename Tag & Color Highlight & Prettier - Code formatter & Highlight matching Tag & Live server
+
++ Korean Language Pack for Visual Studio Code
+
+Git -> Github.com = Repository ( 저장소 )
+
+명령줄 인터페이스
+CLI = 명령프롬프트 // Commander
+
+               Window logo + R = 실행
+-> search cmd
+
+gitscm site
+-> download for windows 64 bit
+
+- Open cmd
+- ssh-keygen -t ed25519 -C "subink0323@gmail.com"
+- Enter... Enter... Ent..
+- 인증서 찾기
+ { C drive -> User -> ID -> .ssh -> Check file }
+확장자 : 파일 종류 구분 단어
+.hwp : 한글 문서
+.avi : 동영상
+- 공개키 등록
+- 작업폴더 등록하기
+a) dir
+b) 바탕화면 : desktop
+
+i) 작업 폴더 위치에서 폴더 열기
+ii) 폴더 주소 없애고 cmd 입력
+-> git 초기화 = git init
+-> 작업위치 이름 지정 = git branch -M main
+-> 작업 결과물을 업로드 대기상태로 등록 = git add -A
+-> 등록한 항목에 대한 내용 기입 = git commit -m "학습폴더 생성"
+-> github에 생성한 저장소와 연결 = git remote add origin (github에서 주소 찾아서 복붙하기)
+-> 업로드 = git push --force --set-upstream origin(저장소) main(폴더) 
+-> 바뀐 것만 다시 다운 git pull origin main 

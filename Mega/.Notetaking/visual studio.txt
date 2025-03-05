@@ -1,0 +1,48 @@
+[visual studio]
+1. 폴더를 끌어서, 설정해서 연다.
+2. 폴더, 파일 생성은 어디로 하던 같다.
+
+____________________________________________
+[ Tag ]
+시작과 끝이 짝만 맞으면 된다.
+
+highlighting : <add something> highlight this </add something>
+
+_____________________________________________
+
+<!doctype html>
+<html lang = "ko">
+<body/>
+</html>
+
+<meta charset="utf-8" />
+charset : 언어 저장 특성 euc-kr ( eng+kor )
+utf-8 : 다국어 전용
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+viewport : For mobile
+웹페이지의 넓이를 해상도 따라가지 않고 기계의 넒이를 따라가라 라는 뜻
+initial-scale=1,minimum-scale=1,maximum-scale=1 = 축소 시키지 말라
+user-scalable=no = 사용자가 축소시킬수 없게 하라
+
+m.naver.com = mobile naver
+
+<!-->
+<-->
+= 주석
+
+_____________________________________________
+
+head : 설정 내용
+body : 화면에 표시되는 부분
+SEARCH vs code theme : 색상 바꾸기
+
+_____________________________________________
+
+Auto close tag : tag를 열었을 때 자동으로 닫혀주는 기능 
+Auto rename tag : tag 중 하나를 바꿨을 때 자동으로 바껴주는 기능
+Color Highlight : 색상 코드를 직접 그 색으로 표현해주는 기능
+contrl shift P : 명령어
+
+_____________________________________________

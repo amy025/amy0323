@@ -1,0 +1,79 @@
+[ TITLE ]
+h1 ~ h6
+
+[ BODY ]
+<p> </p>
+
+[ SOURCE ]
+<blockquote> </blockquote>
+
+[ SEPARATE ]
+* = <li> </li> // <u/> </ul>
+order = <ol>
+Line = <hr />
+
+<div> </div>
+- header (상단)
+- section (중단)
+- footer (하단)
+- article
+- nav (navigation = menu)
+- aside
+- hgroup
+
+<div id="name"> </div> = 분야 이름 적용
+<address> </address> = 안에 주소 & 저작권
+&copy; = copyright 특수문자
+
+<br /> = 줄바꿈
+&nbsp; = 띄어쓰기 한칸
+
+[ LINK ]
+<a href="파일 이름 또는 사이트 주소" [target="_blank"]> 글자 & 이미지 </a>
+[target="_blank"] = 클릭시 새창으로
+
+<a href="#"> </a> = 클릭시 맨 위로 스크롤
+
+<a href="mailto: subink@email.com"> = 매일 보내기 (모바일 웹에 유용하게)
+<a href="tel:01071311604"> = 전화
+
+[주의사항]
+<font> / <a> / <strong> / <b> / <u> / <i> / <span> 은
+<div> / <p> / <ul> / <ol> / <li> / <h1> / <table> 을 포함할 수 없다
+
+[이미지 넣기]
+<img src="파일경로" [sidth=""][height=""][alt="설명"] /> 
+
+INSERT CAPTION
+<figure>
+	<img src>
+	<figcaption> </figcaption>
+</figure>
+
+
+[CHART]
+<table border="" width="" align="left | center | right"> = 표 영역 지정
+<thead> = 제목 영역
+<tr> =행 // 줄
+<th width = "" align="left|center|right"> = 열 th = 제목 td=내용
+<tfoot> = 마지막 집계(?) 영역 -> 없어도 됨
+<tbody>
+<tr>
+<td>
+col = 가로
+row = 세로
+span = 합치다
+cellpadding = 칸과 내용 사이의 여백
+cellspacing = 칸과 칸 사이의 여백
+
+[ Diviging by box]
+<style>
+#container
+width : 800px;
+margin: auto;
+backgroud-color : #eee;
+justify-content: center;
+align items: center
+color:#FFF;
+font-size: 48px; (글자 크기)
+text-shadow: 0 0 5px;
