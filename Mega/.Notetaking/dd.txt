@@ -23,6 +23,8 @@ CLI = 명령프롬프트 // Commander
                Window logo + R = 실행
 -> search cmd
 
+
+[ GIT 연결하기 ]
 gitscm site
 -> download for windows 64 bit
 
@@ -39,6 +41,8 @@ gitscm site
 a) dir
 b) 바탕화면 : desktop
 
+[ ** ssh 이메일 이름 중요 ** ]
+
 i) 작업 폴더 위치에서 폴더 열기
 ii) 폴더 주소 없애고 cmd 입력
 -> git 초기화 = git init
@@ -46,5 +50,11 @@ ii) 폴더 주소 없애고 cmd 입력
 -> 작업 결과물을 업로드 대기상태로 등록 = git add -A
 -> 등록한 항목에 대한 내용 기입 = git commit -m "학습폴더 생성"
 -> github에 생성한 저장소와 연결 = git remote add origin (github에서 주소 찾아서 복붙하기)
--> 업로드 = git push --force --set-upstream origin(저장소) main(폴더) 
+-> 업로드 = git push --force --set-upstream origin(저장소) main(폴더)
+-> 업로드 할게 있는지 확인
+	= git add .
+	= git status
+-> 설정 후, 업로드는
+	= git commit -m "아무거나 입력"
+	= git push origin main
 -> 바뀐 것만 다시 다운 git pull origin main 
